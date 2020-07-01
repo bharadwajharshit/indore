@@ -1,0 +1,211 @@
+/* Tag Selectors */
+h1 {
+  color: #1b2b3b;
+  font-family: "Times New Roman", Times, serif;; 
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px blue;
+}
+
+h2 {
+  color: whitesmoke;
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  color: blue;
+  font-family: cursive;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  font-size:20px;
+}
+
+li {
+  display:inline-block;
+  margin-right:25px;
+  font-size:17px;
+  color:#084B8A;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+body {
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ width:100%;
+ font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+ background-color: #c5aa6a;
+}
+
+
+/* Class Selectors */
+.home_display {
+  background-image: url(Images/indore01.jpg);
+  background-size: cover;  
+}
+
+.navbar {
+  background-color: #4c3c3c;
+}
+
+.nav-link {
+  color: whitesmoke;
+  margin: 5px 25px;
+}
+
+.nav-link:hover {
+  color: whitesmoke;
+  font-size: large;
+  font-weight: 700;
+  margin: 5px 25px;
+}
+
+.description {
+  font-family: sans-serif;
+  width: 90%;
+  margin-left: 75px;
+  text-align: center;
+}
+
+.ruler {
+  display: inline-block;
+  margin: 25px;
+}
+
+.climate {
+  text-align: center;
+}
+
+.rel-int .nat-car .his-img {
+  height: 500px;
+  width: 800px;
+  text-align: center;
+  padding: 5px;
+}
+
+.night-img {
+  height: 500px;
+  width: 800px;
+  text-align: center;
+  padding: 5px;
+}
+
+.exp-intro, .industry {
+  padding: 25px;
+}
+
+.explore {
+  margin-left: -50px;
+  padding: 25px;
+}
+
+.trans-table {
+  padding: 10px;
+  margin: 10px;
+}
+
+.card-link {
+  color: whitesmoke;
+}
+
+.card-link:hover {
+  color: whitesmoke;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.card {
+  background-color: antiquewhite;
+}
+
+.collapsible {
+  background-color: #5f4c4c;
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.content {
+  padding: 0 18px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.customContainer {
+  margin: 0 50px;
+}
+
+.form-control {
+  width: 140%;
+}
+
+.btn {
+  background-color: #4c3c3c;
+}
+
+.btn:hover {
+  font-size: medium;
+  font-weight: 700;
+  background-color: #4c3c3c;
+}
+
+.contact {
+  margin-top: 50px;
+}
+
+.contact-form__row {
+  display: flex;
+  width: 26%;
+  margin-left: 37%;
+  justify-content: space-evenly;
+  padding: 0.75rem;
+}
+
+
+/* ID Selectors */
+#ind-home, #title, #footer {
+  background-color: beige;
+  padding: 20px;
+  margin-top: 65px;
+  text-align: center;
+}
+
+#exp-intro {
+  background-color: beige;
+  text-align: center;
+}
+
+#history {
+  background-color: beige;
+  padding: 20px;
+  width: 97.2%;
+  text-align: center;
+}
+
+#religious #nature #nightlife {
+  background-color: beige;
+  padding: 20px;
+  margin-left: -50px;
+  text-align: center;
+}
+
+#site_name {
+ text-align:left;
+ width:680px;
+ font-size:35px;
+ margin-left:20px;
+ float: left;
+}
